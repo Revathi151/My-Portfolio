@@ -1,0 +1,50 @@
+body {
+    background: url('about.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+    padding: 50px;
+}
+
+.about-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    background: #1e1e1e;
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 12px rgba(255, 255, 255, 0.2);
+}
+.about-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #CBD6E2;
+}
+
+i {
+    color: #ffcc00;
+    margin-right: 8px;
+}
+.chuma{
+    color:#008080;
+    font-weight:bold;
+    font-size:20px;
+}
+.name{
+    color:green;
+    font-size:40px;
+}
